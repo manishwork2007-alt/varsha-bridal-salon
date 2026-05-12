@@ -53,7 +53,7 @@ City: ${city}
 Address: ${address}
 Message: ${message}`;
 
-  let url = "https://web.whatsapp.com/send?phone=918739073601&text=" + encodeURIComponent(text);
+  let url = "https://wa.me/918739073601?text=" + encodeURIComponent(text);
 
   window.location.href=url;
 }
