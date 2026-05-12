@@ -128,7 +128,7 @@ h3 {
 
 #home {
   padding-top: 4px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
@@ -136,6 +136,10 @@ h3 {
   margin-left: 3px;
   color: #706875;
   background: linear-gradient(to right, rgb(243, 209, 229),rgb(196, 242, 201),rgb(242, 245, 216));
+}
+#home ul {
+ margin:0px;
+ padding:0px;
 }
 
 #home ul li {
@@ -154,6 +158,7 @@ h3 {
   text-align: center;
   background:linear-gradient(to left,rgb(211, 211, 244),rgb(178, 220, 234),rgb(182, 222, 217));
   margin-top: 5px;
+ padding-bottom:30px;
   color: #6a5864;
 }
 
@@ -204,7 +209,7 @@ h3 {
 .safety-box{
   background:#fff5f8;
   padding: 0px 35px 35px 35px;
-  margin: 15px 10px 35px 10px;
+  margin: 15px 10px 0px 10px;
   border-radius:15px;
   box-shadow:0 4px 10px rgba(0,0,0,0.08);
 }
