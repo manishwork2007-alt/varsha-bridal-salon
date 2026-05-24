@@ -53,7 +53,7 @@ City: ${city}
 Address: ${address}
 Message: ${message}`;
 
-  let url = "https://wa.me/919335759701?text=" + encodeURIComponent(text);
+  let url = "https://wa.me/919335437729?text=" + encodeURIComponent(text);
 
   window.location.href=url;
 }
