@@ -334,22 +334,9 @@ h3 {
   background: linear-gradient(rgb(2, 174, 42), rgb(5, 186, 32),rgb(5, 185, 14));
 }
 
-.price {
-  position: absolute;
-  padding-left: 3px;
-  padding-right: 3px;
-  bottom: 2px;
-  left: 3px;
-  border-radius:5px;
-  color:#f4eeee ;
-  background-color: #4b4c4c;
-  z-index: 993;
-}
-
 .book-btn {
   position: absolute;
   bottom: 0px;
-  right: 0px;
   padding: 5px 10px 5px 10px;
   border-radius: 5px;
   border: none;
