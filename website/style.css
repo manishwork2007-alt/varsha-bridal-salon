@@ -4,7 +4,7 @@
 }
 
 .header {
-  position: static;
+  position: fixed;
   display: flex;
   align-items: center;
   top: 0;
@@ -30,7 +30,6 @@
   position: absolute;
   text-align: center;
   left: 30%;
-  font-size:15px;
   background: linear-gradient(to right, red, rgb(2, 22, 3), rgb(19, 244, 23));
   -webkit-background-clip: text;
   background-clip: text;
@@ -40,7 +39,6 @@
   @media (min-width: 500px) {
     .text {
       right: 30%;
-     font-size:40px;
     }
   }
 
@@ -59,7 +57,7 @@ h3 {
 }
 
 .nav-bar {
-  position: static;
+  position: fixed;
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
@@ -113,7 +111,7 @@ h3 {
   height: auto;
   display: flex;
   position: relative;
-  margin-top: 5px;
+  margin-top:135px;
   overflow: hidden;
 }
 
