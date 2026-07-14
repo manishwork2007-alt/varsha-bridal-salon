@@ -9,7 +9,6 @@
   align-items: center;
   top: 0;
   right: 0;
-  z-index: 1000;
   padding-right: 10px;
   box-sizing: border-box;
   width: 100%;
@@ -67,12 +66,15 @@ h3 {
   gap: 30px;
   margin-top: 130px;
   z-index: 999;
+ font-size:30px;
 }
 .menu-btn{
     display:none;
     font-size:30px;
     cursor:pointer;
     padding:10px;
+    top:20px;
+    right:20px;
 }
 
 @media (max-width:768px){
