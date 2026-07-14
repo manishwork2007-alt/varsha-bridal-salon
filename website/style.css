@@ -14,6 +14,7 @@
   width: 100%;
   border-radius: 10px 10px 0px 0px;
   background: linear-gradient(to right, rgb(241, 232, 188), rgb(237, 184, 193), rgb(209, 197, 199));
+ z-index:1001;
 }
 
 .logo img {
@@ -55,19 +56,21 @@
 h3 {
   border:3px solid #292828;
 }
-
+/*
 .nav-bar {
   position: fixed;
   width: 100%;
   box-sizing: border-box;
+  left: 1px;
   padding: 10px;
   display: flex;
+  box-sizing:border-box;
+  background: linear-gradient{to right,#ff9a9e ,#fad0c4, #fad0c4;
   justify-content: center;
   gap: 30px;
   margin-top: 130px;
-  z-index: 999;
- font-size:30px;
-}
+ font-size:20px;
+} */
 .menu-btn{
     display:none;
     font-size:30px;
