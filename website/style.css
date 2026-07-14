@@ -62,15 +62,10 @@ h3 {
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
-  left:1px;
   display: flex;
   justify-content: center;
   gap: 30px;
   margin-top: 130px;
-  background: linear-gradient(to right,#ff9a9e, #fad0c4, #fad0c4);
-  border: 2px solid ;
-  border-left: 1.3px solid black;
-  border-radius:5px;
   z-index: 999;
 }
 .menu-btn{
@@ -92,6 +87,7 @@ h3 {
     width:100%;
     gap:15px;
     margin-top:10px;
+    z-index:10005;
 }
 
 .nav-bar.active{
