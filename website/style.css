@@ -65,7 +65,7 @@ h3 {
   padding: 10px;
   display: flex;
   box-sizing:border-box;
-  background: linear-gradient{to right,#ff9a9e ,#fad0c4, #fad0c4;
+  background: linear-gradient{to right,#ff9a9e ,#fad0c4, #fad0c4);
   justify-content: center;
   gap: 30px;
   margin-top: 130px;
