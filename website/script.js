@@ -57,6 +57,3 @@ Message: ${message}`;
 
   window.location.href=url;
 }
-function toggleMenu() {
-    document.getElementById("navBar").classList.toggle("active");
-}
