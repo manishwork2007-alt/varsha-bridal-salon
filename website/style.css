@@ -71,34 +71,6 @@ h3 {
   margin-top: 130px;
  font-size:20px;
 } 
-.menu-btn{
-    display:none;
-    font-size:30px;
-    cursor:pointer;
-    padding:10px;
-    top:20px;
-    right:20px;
-}
-
-@media (max-width:768px){
-
-.menu-btn{
-    display:block;
-}
-
-.nav-bar{
-    display:none;
-    flex-direction:column;
-    width:100%;
-    gap:15px;
-    margin-top:10px;
-    z-index:10005;
-}
-
-.nav-bar.active{
-    display:flex;
-}
-}
 
 .nav-bar a {
   color: #292828;
