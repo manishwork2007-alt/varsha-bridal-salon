@@ -4,7 +4,7 @@
 }
 
 .header {
-  position: fixed;
+  position: static;
   display: flex;
   align-items: center;
   top: 0;
@@ -58,7 +58,7 @@ h3 {
 }
 
 .nav-bar {
-  position: fixed;
+  position: static;
   width: 100%;
   box-sizing: border-box;
   padding: 10px;
