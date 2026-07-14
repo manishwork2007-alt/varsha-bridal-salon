@@ -528,3 +528,12 @@ h5 {
 .whatsapp-btn:hover {
     background: #1ebe5d;
 }
+.whatsapp-btn{
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse{
+    0%{transform: scale(1);}
+    50%{transform: scale(1.08);}
+    100%{transform: scale(1);}
+}
